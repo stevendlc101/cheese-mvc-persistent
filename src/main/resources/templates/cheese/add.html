@@ -23,7 +23,7 @@
         <select name="categoryId">
             <option th:each="category : ${categories}"
                     th:text="${category.name}"
-                    th:value="${category.name}"></option>
+                    th:value="${category.id}"></option>
         </select>
     </div>
 
